@@ -1,0 +1,42 @@
+30/09/2024 05:52:33: Connection started... ~~~ Client.java / method: connectionReady
+30/09/2024 05:52:33: Client connected: TCPConnection: /127.0.0.1: 60169 ~~~ Server.java / method: connectionReady
+30/09/2024 05:52:33: Client connected: TCPConnection: /127.0.0.1: 60169 ~~~ Client.java / method: receiveString
+30/09/2024 05:52:43: Client: TCPConnection: /127.0.0.1: 60169 send string: Inna: Hello world ~~~ Server.java / method: receiveString
+30/09/2024 05:52:43: Inna: Hello world ~~~ Client.java / method: receiveString
+30/09/2024 05:52:46: Client connected: TCPConnection: /127.0.0.1: 60177 ~~~ Client.java / method: receiveString
+30/09/2024 05:52:46: Client connected: TCPConnection: /127.0.0.1: 60177 ~~~ Server.java / method: connectionReady
+30/09/2024 05:52:46: Connection started... ~~~ Client.java / method: connectionReady
+30/09/2024 05:52:46: Client connected: TCPConnection: /127.0.0.1: 60177 ~~~ Client.java / method: receiveString
+30/09/2024 05:52:52: Client: TCPConnection: /127.0.0.1: 60177 send string: Anna: Hello ~~~ Server.java / method: receiveString
+30/09/2024 05:52:52: Anna: Hello ~~~ Client.java / method: receiveString
+30/09/2024 05:52:52: Anna: Hello ~~~ Client.java / method: receiveString
+30/09/2024 05:52:59: Inna: how are u ~~~ Client.java / method: receiveString
+30/09/2024 05:52:59: Client: TCPConnection: /127.0.0.1: 60169 send string: Inna: how are u ~~~ Server.java / method: receiveString
+30/09/2024 05:52:59: Inna: how are u ~~~ Client.java / method: receiveString
+30/09/2024 05:53:07: Client: TCPConnection: /127.0.0.1: 60177 send string: Anna: fine and u ~~~ Server.java / method: receiveString
+30/09/2024 05:53:07: Anna: fine and u ~~~ Client.java / method: receiveString
+30/09/2024 05:53:07: Anna: fine and u ~~~ Client.java / method: receiveString
+30/09/2024 05:53:11: Client: TCPConnection: /127.0.0.1: 60169 send string: Inna: good ~~~ Server.java / method: receiveString
+30/09/2024 05:53:11: Inna: good ~~~ Client.java / method: receiveString
+30/09/2024 05:53:11: Inna: good ~~~ Client.java / method: receiveString
+30/09/2024 05:53:15: Inna: bye ~~~ Client.java / method: receiveString
+30/09/2024 05:53:15: Client: TCPConnection: /127.0.0.1: 60169 send string: Inna: bye ~~~ Server.java / method: receiveString
+30/09/2024 05:53:15: Inna: bye ~~~ Client.java / method: receiveString
+30/09/2024 05:53:19: Client: TCPConnection: /127.0.0.1: 60177 send string: Anna: bye ~~~ Server.java / method: receiveString
+30/09/2024 05:53:19: Anna: bye ~~~ Client.java / method: receiveString
+30/09/2024 05:53:19: Anna: bye ~~~ Client.java / method: receiveString
+30/09/2024 05:53:24: Client: TCPConnection: /127.0.0.1: 60169 send string: null ~~~ Server.java / method: receiveString
+30/09/2024 05:53:24: null ~~~ Client.java / method: receiveString
+30/09/2024 05:53:24: MyException: java.net.SocketException: Socket closed ~~~ Client.java / method: exception 
+30/09/2024 05:53:24: Disconnect... ~~~ Client.java / method: disconnect
+30/09/2024 05:53:24: TCPConnection exception: java.net.SocketException: Программа на вашем хост-компьютере разорвала установленное подключение ~~~ Server.java / method: exception
+30/09/2024 05:53:24: Client: TCPConnection: /127.0.0.1: 60169 send string: null ~~~ Server.java / method: receiveString
+30/09/2024 05:53:24: null ~~~ Client.java / method: receiveString
+30/09/2024 05:53:24: Client disconnected: TCPConnection: /127.0.0.1: 60169 ~~~ Server.java / method: disconnect
+30/09/2024 05:53:24: Client disconnected: TCPConnection: /127.0.0.1: 60169 ~~~ Client.java / method: receiveString
+30/09/2024 05:53:30: Client: TCPConnection: /127.0.0.1: 60177 send string: null ~~~ Server.java / method: receiveString
+30/09/2024 05:53:30: MyException: java.net.SocketException: Socket closed ~~~ Client.java / method: exception 
+30/09/2024 05:53:30: Disconnect... ~~~ Client.java / method: disconnect
+30/09/2024 05:53:30: TCPConnection exception: java.net.SocketException: Программа на вашем хост-компьютере разорвала установленное подключение ~~~ Server.java / method: exception
+30/09/2024 05:53:30: Client: TCPConnection: /127.0.0.1: 60177 send string: null ~~~ Server.java / method: receiveString
+30/09/2024 05:53:30: Client disconnected: TCPConnection: /127.0.0.1: 60177 ~~~ Server.java / method: disconnect
